@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Baloo+Bhai+2:wght@400;800&display=swap');
+body
+{
+    margin: 0;
+}
+hr
+{
+    width: 85%;
+    opacity: .8;
+}
+.menu 
+{
+    float: right;
+    margin-right: 150px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+.menu-list
+{
+    list-style-type: none;
+}
+.menu-list-item 
+{
+    float: left;
+    margin-right: 30px;
+    margin-top: 18px;
+}
+nav img
+{
+    margin-left: 150px;
+}
+.top-section
+{
+    margin-top: 100px;
+}
+.top-section, .middle-section, .bottom-section {
+    margin-bottom: 200px;
+}
+.main-button
+{
+    position: relative;
+    top: -15px;
+}
+.main-button, .side-button
+{
+    background-color: #5B9144;
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 160px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+.main-button:hover, .side-button:hover
+{
+    background-color: #50ABA3;
+}
+.team-header
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.main-header
+{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    color: #527C9E;
+}
+.section-header
+{
+    font-size: 40px;
+}
+.middle-section .description
+{
+    float: left;
+    margin-left: 200px;
+}
+.samolot, .bagaz, .garnitur
+{
+    margin-left: 130px;
+}
+.description
+{
+    float: right;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 70px;
+}
+.description h2
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+    line-height: 40px;
+}
+.description p
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: bold;
+}
+.portrait-container
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px 100px 300px;
+}
+.portrait-container2
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 450px 0 450px;
+    margin-bottom: 100px;
+}
+.portrait-circle
+{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 200px;
+    background-color: #152B4A;
+    display: flex;
+}
+.name
+{
+    margin: auto auto;
+    position: relative;
+    top: 120px;
+    font-size: 30px;
+    font-family: 'Average Sans', sans-serif;
+}
+.portrait-circle:hover
+.name:hover
+{
+    display: block;
+}
+section footer
+{
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: 'Average Sans', sans-serif;
+    line-height: 70px;
+}
+section footer h3
+{
+    margin-left: 40px;
+}
+section footer ul li
+{
+    list-style-type: none;
+}
+.icon 
+{
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .samolot, .bagaz, .garnitur 
+    {
+        margin: 40px;
+    }
+    .description
+    {
+        float: left;
+        margin-left: 135px;
+    }
+    .middle-section .description
+    {
+        float: left;
+        margin-left: 135px;
+    }
+    .portrait-circle
+    {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 200px;
+    }
+    .main-button
+    {
+        display: none;
+    }
+    .menu-list-item
+    {
+        display: none;
+    }
+    section footer 
+    {
+        flex-direction: column;
+    }
+    .portrait-container
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 50px 50px 50px;
+    }
+    .portrait-container2
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 120px 0 120px;
+        margin-bottom: 100px;
+    }
+    .portrait-circle
+    {
+        width: 100px;
+        height: 100px;
+        border: 2px solid black;
+        border-radius: 200px;
+    }
+    .name
+    {
+        font-size: 15px;
+        top: 60px;
+        margin: auto auto;
+    }
+  }
